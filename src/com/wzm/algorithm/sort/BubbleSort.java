@@ -5,7 +5,12 @@ import com.wzm.algorithm.utils.ArrayUtils;
 import java.util.Arrays;
 
 /**
- * 冒泡排序
+ * 冒泡排序；
+ *
+ * 算法思想：遍历数组，每次将最大的一个数移动到最后；
+ * 如何确定最大数：当前数如果大于下一个数，就交换；
+ *
+ * 时间复杂度：O(N*N)
  */
 public class BubbleSort {
 
